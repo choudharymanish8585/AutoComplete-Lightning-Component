@@ -29,3 +29,4 @@ The component can query records from any Salesforce object and can display match
 
 <code><c:AutoComplete aura:id="car-record" label="Car" objectApiName="Car__c" idFieldApiName="Car_External_Id__c" valueFieldApiName="Name"  maxRecords="10"/></code>
 
+![AutoComplete GIF](AutoComplete.gif)
