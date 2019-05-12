@@ -1,7 +1,7 @@
 # AutoComplete-Lightning-Component
-<h1>A custom component which will allow the user to search for records from Salesforce objects and create a dropdown populated with matching records.</h1>
+<h2>A custom component which will allow the user to search for records from Salesforce objects and create a dropdown populated with matching records.</h2>
 
-The component can query records from any Salesforce object and can display matching records as a drop down. It accepts a few attributes which give you the power to control the component as per your use case.
+<h3>The component can query records from any Salesforce object and can display matching records as a drop down. It accepts a few attributes which give you the power to control the component as per your use case.</h3>
 
 <strong>label</strong> - String type attribute. Display a label over the component if a value is supplied.
 
@@ -16,7 +16,7 @@ The component can query records from any Salesforce object and can display match
 
 <strong>maxRecords</strong> - Number type attribute. The maximum matching records you want to fetch and display as dropdown. Default is 10.
 
-<h2>Below are some of the examples of how you can invoke the component:</h2>
+<h3>Below are some of the examples of how you can invoke the component:</h3>
 1. Fetching Account Records with Name-
 
 <code><c:AutoComplete aura:id="account-records" label="Account" objectApiName="Account" idFieldApiName="Id" valueFieldApiName="Name" /></code>
